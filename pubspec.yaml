@@ -1,0 +1,44 @@
+name: amoi
+description: Amoi groupe by Bô studio MADAGASCAR
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0-271.2.beta <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.20.0
+  cloud_firestore: ^3.4.2
+  firebase_storage: ^10.3.4
+  flutter_native_splash: ^2.2.6
+  toast: ^0.3.0
+  flutter_easyloading: ^3.0.5
+  connectivity_plus: ^2.3.6+1
+  intl: ^0.17.0
+  avatar_stack: ^1.1.2
+  url_launcher: ^6.1.6
+  carousel_slider: ^4.1.1
+  smooth_page_indicator: ^1.0.0+2
+  permission_handler: ^10.1.0
+  shared_preferences: ^2.0.15
+
+flutter_native_splash:
+  image: assets/logo/logosplashscreen.png
+  color: "#000000"  # bleu -> #42a5f5
+  fullscreen: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/
+  - assets/logo/
